@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostbet Casino - Лучшее Онлайн Казино с Бонусами до 125,000₽</title>
+    <meta name="description" content="Mostbet - топовое онлайн казино с огромным выбором слотов, живыми дилерами и щедрыми бонусами. Регистрируйся и получи до 125,000₽ бонуса!" />
+    <meta name="keywords" content="Mostbet, онлайн казино, слоты, рулетка, бонусы, промокоды" />
+    <meta name="author" content="Mostbet Affiliate" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="Mostbet Casino - Лучшее Онлайн Казино" />
+    <meta property="og:description" content="Mostbet - топовое онлайн казино с огромным выбором слотов, живыми дилерами и щедрыми бонусами" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@mostbet" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #1a2332 0%, #0f5132 50%, #1a1a1a 100%);
+            color: white;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Styles */
+        .header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(0, 0, 0, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+            padding: 1rem 0;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #ffd700, #ffb347);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: black;
+            font-size: 1.2rem;
+        }
+
+        .logo-text {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        .nav {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav a:hover {
+            color: #ffd700;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #ffd700, #ffb347);
+            color: black;
+            padding: 12px 32px;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #ffb347, #ff8c00);
+            transform: scale(1.05);
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            margin-top: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, #1a2332 0%, #0f5132 50%, #1a1a1a 100%);
+        }
+
+        .hero-animation {
+            position: absolute;
+            inset: 0;
+        }
+
+        .hero-circle {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.1;
+            animation: pulse 3s infinite;
+        }
+
+        .hero-circle:nth-child(1) {
+            top: 80px;
+            left: 40px;
+            width: 128px;
+            height: 128px;
+            background: #ffd700;
+        }
+
+        .hero-circle:nth-child(2) {
+            bottom: 80px;
+            right: 40px;
+            width: 96px;
+            height: 96px;
+            background: #00ff00;
+            animation-delay: 1s;
+        }
+
+        .hero-circle:nth-child(3) {
+            top: 50%;
+            left: 25%;
+            width: 64px;
+            height: 64px;
+            background: #ff0000;
+            animation-delay: 2s;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            max-width: 800px;
+        }
+
+        .stars {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .star {
+            color: #ffd700;
+            font-size: 2rem;
+        }
+
+        .hero-title {
+            font-size: 4rem;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, #ffd700, #ffb347);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #e5e5e5;
+        }
+
+        .hero-description {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            color: #d1d5db;
+        }
+
+        .bonus-box {
+            background: linear-gradient(135deg, #dc2626, #b91c1c);
+            padding: 2rem;
+            border-radius: 16px;
+            margin-bottom: 2rem;
+            display: inline-block;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+
+        .bonus-title {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .bonus-amount {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #ffd700;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .btn-large {
+            padding: 24px 48px;
+            font-size: 1.2rem;
+            border-radius: 12px;
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 2px solid #ffd700;
+            color: #ffd700;
+            padding: 24px 48px;
+            border-radius: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1.2rem;
+        }
+
+        .btn-outline:hover {
+            background: #ffd700;
+            color: black;
+            transform: scale(1.05);
+        }
+
+        /* Sections */
+        .section {
+            padding: 5rem 0;
+        }
+
+        .section-title {
+            font-size: 3rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 3rem;
+            background: linear-gradient(135deg, #ffd700, #ffb347);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .section-description {
+            font-size: 1.2rem;
+            text-align: center;
+            color: #d1d5db;
+            max-width: 600px;
+            margin: 0 auto 3rem;
+        }
+
+        .grid {
+            display: grid;
+            gap: 2rem;
+        }
+
+        .grid-2 {
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+
+        .grid-3 {
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
+
+        .grid-4 {
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        }
+
+        .card {
+            background: linear-gradient(135deg, #374151, #1f2937);
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            border-radius: 12px;
+            padding: 2rem;
+            transition: all 0.3s;
+        }
+
+        .card:hover {
+            border-color: rgba(255, 215, 0, 0.4);
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+
+        .card-header {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        .card-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .promo-code {
+            background: black;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            margin: 1rem 0;
+        }
+
+        .promo-code-text {
+            color: #ffd700;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .testimonial-amount {
+            background: linear-gradient(135deg, #16a34a, #15803d);
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            margin: 1rem 0;
+        }
+
+        .footer {
+            background: black;
+            padding: 4rem 0 2rem;
+        }
+
+        .footer-cta {
+            background: linear-gradient(135deg, #dc2626, #b91c1c);
+            padding: 2rem;
+            border-radius: 16px;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-column h3 {
+            color: #ffd700;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column li {
+            color: #d1d5db;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #374151;
+            padding-top: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-text {
+            color: #9ca3af;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .footer-info {
+            text-align: right;
+        }
+
+        .footer-info p {
+            color: #9ca3af;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-copyright {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #374151;
+            color: #6b7280;
+            font-size: 0.9rem;
+        }
+
+        /* Animations */
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 0.1;
+            }
+            50% {
+                opacity: 0.3;
+            }
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .nav {
+                display: none;
+            }
+
+            .hero-title {
+                font-size: 2.5rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.5rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+            }
+
+            .footer-bottom {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .footer-info {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">M</div>
+                    <span class="logo-text">Mostbet</span>
+                </div>
+                
+                <nav class="nav">
+                    <a href="#games">Игры</a>
+                    <a href="#bonuses">Бонусы</a>
+                    <a href="#slots">Слоты</a>
+                    <a href="#live">Live Казино</a>
+                </nav>
+
+                <button class="btn-primary" onclick="openMostbet()">
+                    ИГРАТЬ СЕЙЧАС
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        
+        <div class="hero-animation">
+            <div class="hero-circle"></div>
+            <div class="hero-circle"></div>
+            <div class="hero-circle"></div>
+        </div>
+
+        <div class="container">
+            <div class="hero-content">
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span style="margin-left: 1rem; font-size: 1.2rem; color: #d1d5db;">Рейтинг 4.9/5</span>
+                </div>
+
+                <h1 class="hero-title">MOSTBET CASINO</h1>
+                
+                <p class="hero-subtitle">🎰 ЛУЧШЕЕ ОНЛАЙН КАЗИНО 2024 🎰</p>
+                
+                <p class="hero-description">
+                    Более 3000+ игр • Живые дилеры • Мгновенные выплаты • Бонус до 125,000₽
+                </p>
+
+                <div class="bonus-box">
+                    <p class="bonus-title">🔥 ЭКСКЛЮЗИВНЫЙ БОНУС 🔥</p>
+                    <p class="bonus-amount">125,000₽</p>
+                    <p style="font-size: 1.1rem;">+ 250 ФРИСПИНОВ</p>
+                </div>
+
+                <div class="hero-buttons">
+                    <button class="btn-primary btn-large" onclick="openMostbet()">
+                        🎯 ПОЛУЧИТЬ БОНУС
+                    </button>
+                    
+                    <button class="btn-outline" onclick="openMostbet()">
+                        📱 СКАЧАТЬ ПРИЛОЖЕНИЕ
+                    </button>
+                </div>
+
+                <div style="margin-top: 2rem; font-size: 0.9rem; color: #9ca3af;">
+                    <p>🔒 Лицензированное казино • 🎁 Без депозита • ⚡ Быстрая регистрация</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bonuses Section -->
+    <section id="bonuses" class="section" style="background: linear-gradient(180deg, #374151 0%, #1f2937 100%);">
+        <div class="container">
+            <h2 class="section-title">БОНУСЫ И ПРОМОКОДЫ</h2>
+            <p class="section-description">
+                Получите максимум от игры в Mostbet Casino с эксклюзивными бонусами и промокодами
+            </p>
+
+            <div class="grid grid-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">🎁 ПРИВЕТСТВЕННЫЙ БОНУС</h3>
+                        <div style="background: linear-gradient(135deg, #ef4444, #dc2626); padding: 1rem; border-radius: 8px;">
+                            <p style="font-size: 2rem; font-weight: bold;">125,000₽</p>
+                        </div>
+                    </div>
+                    <p style="color: #d1d5db; margin-bottom: 1rem;">
+                        100% на первый депозит + 250 фриспинов
+                    </p>
+                    <div class="promo-code">
+                        <p class="promo-code-text">WELCOME125</p>
+                    </div>
+                    <button class="btn-primary" style="width: 100%;" onclick="openMostbet()">
+                        АКТИВИРОВАТЬ
+                    </button>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">🔥 ПРОМОКОД НЕДЕЛИ</h3>
+                        <div style="background: linear-gradient(135deg, #a855f7, #9333ea); padding: 1rem; border-radius: 8px;">
+                            <p style="font-size: 2rem; font-weight: bold;">50,000₽</p>
+                        </div>
+                    </div>
+                    <p style="color: #d1d5db; margin-bottom: 1rem;">
+                        75% бонус + 100 фриспинов на популярные слоты
+                    </p>
+                    <div class="promo-code">
+                        <p class="promo-code-text">WEEK50</p>
+                    </div>
+                    <button class="btn-primary" style="width: 100%;" onclick="openMostbet()">
+                        АКТИВИРОВАТЬ
+                    </button>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">💎 VIP БОНУС</h3>
+                        <div style="background: linear-gradient(135deg, #eab308, #ca8a04); padding: 1rem; border-radius: 8px;">
+                            <p style="font-size: 2rem; font-weight: bold;">200,000₽</p>
+                        </div>
+                    </div>
+                    <p style="color: #d1d5db; margin-bottom: 1rem;">
+                        Эксклюзивный бонус для VIP игроков
+                    </p>
+                    <div class="promo-code">
+                        <p class="promo-code-text">VIP200</p>
+                    </div>
+                    <button class="btn-primary" style="width: 100%;" onclick="openMostbet()">
+                        АКТИВИРОВАТЬ
+                    </button>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">🎰 СЛОТ ТУРНИР</h3>
+                        <div style="background: linear-gradient(135deg, #22c55e, #16a34a); padding: 1rem; border-radius: 8px;">
+                            <p style="font-size: 2rem; font-weight: bold;">1,000,000₽</p>
+                        </div>
+                    </div>
+                    <p style="color: #d1d5db; margin-bottom: 1rem;">
+                        Призовой фонд в турнире слотов
+                    </p>
+                    <div class="promo-code">
+                        <p class="promo-code-text">SLOTS1M</p>
+                    </div>
+                    <button class="btn-primary" style="width: 100%;" onclick="openMostbet()">
+                        АКТИВИРОВАТЬ
+                    </button>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <div style="background: linear-gradient(135deg, #16a34a, #15803d); padding: 2rem; border-radius: 16px; display: inline-block;">
+                    <p style="font-size: 1.5rem; font-weight: bold; margin-bottom: 0.5rem;">⚡ МГНОВЕННОЕ ЗАЧИСЛЕНИЕ ⚡</p>
+                    <p style="font-size: 1.1rem;">Все бонусы активируются автоматически при вводе промокода</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="games" class="section" style="background: linear-gradient(180deg, #1f2937 0%, #374151 100%);">
+        <div class="container">
+            <h2 class="section-title">ИГРЫ КАЗИНО</h2>
+            <p class="section-description">
+                Более 3000 игр от лучших провайдеров мира. Найдите свою удачу в Mostbet Casino!
+            </p>
+
+            <div class="grid grid-4">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">🎰</div>
+                        <h3 class="card-title">СЛОТЫ</h3>
+                        <div style="background: linear-gradient(135deg, #ffd700, #ffb347); color: black; font-weight: bold; padding: 0.5rem 1rem; border-radius: 8px;">
+                            2500+ ИГР
+                        </div>
+                    </div>
+                    <p style="color: #d1d5db; margin-bottom: 1rem; text-align: center;">
+                        Лучшие слоты от топовых провайдеров
+                    </p>
+                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                        <div style="background: #374151; padding: 0.5rem; border-radius: 4px; text-align: center; font-size: 0.9rem; color: #ffd700;">Pragmatic Play</div>
+                        <div style="background: #374151; padding: 0.5rem; border-radius: 4px; text-align: center; font-size: 0.9rem; color: #ffd700;">NetEnt</div>
+                        <div style="background: #374151; padding: 0.5rem; border-radius: 4px; text-align: center; font-size: 0.9rem; color: #ffd700;">Microgaming</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">🃏</div>
+                        <h3 class="card-title">НАСТОЛЬНЫЕ ИГРЫ</h3>
+                        <div style="background: linear-gradient(135deg, #ffd700, #ffb347); color: black; font-weight: bold; padding: 0.5rem 1rem; border-radius: 8px;">
+                            200+ ИГР
+                        </div>
+                    </div>
+                    <p style="color: #d1d5db; margin-bottom: 1rem; text-align: center;">
+                        Блэкджек, покер, баккара и другие
+                    </p>
+                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                        <div style="background: #374151; padding: 0.5rem; border-radius: 4px; text-align: center; font-size: 0.9rem; color: #ffd700;">Evolution</div>
+                        <div style="background: #374151; padding: 0.5rem; border-radius: 4px; text-align: center; font-size: 0.9rem; color: #ffd700;">Ezugi</div>
+                        <div style="background: #374151; padding: 0.5rem; border-radius: 4px; text-align: center; font-size: 0.9rem; color: #ffd700;">Vivo Gaming</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">🎯</div>
+                        <h3 class="card-title">LIVE КАЗИНО</h3>
+                        <div style="background: linear-gradient(135deg, #ffd700, #ffb347); color: black; font-weight: bold; padding: 0.5rem 1rem; border-radius: 8px;">
+                            150+ ИГР
+                        </div>
+                    </div>
+                    <p style="color: #d1d5db; margin-bottom: 1rem; text-align: center;">
+                        Игры с живыми дилерами в реальном времени
+                    </p>
+                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                        <div style="background: #374151; padding: 0.5rem; border-radius: 4px; text-align: center; font-size: 0.9rem; color: #ffd700;">Evolution Gaming</div>
+                        <div style="background: #374151; padding: 0.5rem; border-radius: 4px; text-align: center; font-size: 0.9rem; color: #ffd700;">Pragmatic Live</div>
+                        <div style="background: #374151; padding: 0.5rem; border-radius: 4px; text-align: center; font-size: 0.9rem; color: #ffd700;">Ezugi</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">🚀</div>
+                        <h3 class="card-title">КРЭШ ИГРЫ</h3>
+                        <div style="background: linear-gradient(135deg, #ffd700, #ffb347); color: black; font-weight: bold; padding: 0.5rem 1rem; border-radius: 8px;">
+                            50+ ИГР
+                        </div>
+                    </div>
+                    <p style="color: #d1d5db; margin-bottom: 1rem; text-align: center;">
+                        Aviator, JetX, Spaceman и другие
+                    </p>
+                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                        <div style="background: #374151; padding: 0.5rem; border-radius: 4px; text-align: center; font-size: 0.9rem; color: #ffd700;">Spribe</div>
+                        <div style="background: #374151; padding: 0.5rem; border-radius: 4px; text-align: center; font-size: 0.9rem; color: #ffd700;">SmartSoft</div>
+                        <div style="background: #374151; padding: 0.5rem; border-radius: 4px; text-align: center; font-size: 0.9rem; color: #ffd700;">TurboGames</div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top: 4rem;">
+                <h3 style="font-size: 2rem; font-weight: bold; text-align: center; margin-bottom: 2rem; color: #ffd700;">
+                    🔥 ПОПУЛЯРНЫЕ СЛОТЫ 🔥
+                </h3>
+                <div class="grid grid-4">
+                    <div class="card" style="box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);">
+                        <div class="card-header">
+                            <h4 style="font-size: 1.1rem; font-weight: bold; margin-bottom: 0.5rem;">Gates of Olympus</h4>
+                            <p style="color: #ffd700; font-weight: 500;">Pragmatic Play</p>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; font-size: 0.9rem; margin-bottom: 0.5rem;">
+                            <span style="color: #9ca3af;">RTP:</span>
+                            <span style="color: #22c55e; font-weight: bold;">96.50%</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; font-size: 0.9rem; margin-bottom: 1rem;">
+                            <span style="color: #9ca3af;">Max Win:</span>
+                            <span style="color: #ffd700; font-weight: bold;">x5000</span>
+                        </div>
+                        <div style="background: #374151; padding: 0.5rem; border-radius: 4px; text-align: center; font-size: 0.9rem; color: #d1d5db; margin-bottom: 1rem;">
+                            🔥 Множители до x500
+                        </div>
+                        <button class="btn-primary" style="width: 100%; background: linear-gradient(135deg, #22c55e, #16a34a);" onclick="openMostbet()">
+                            ИГРАТЬ
+                        </button>
+                    </div>
+
+                    <div class="card" style="box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);">
+                        <div class="card-header">
+                            <h4 style="font-size: 1.1rem; font-weight: bold; margin-bottom: 0.5rem;">Sweet Bonanza</h4>
+                            <p style="color: #ffd700; font-weight: 500;">Pragmatic Play</p>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; font-size: 0.9rem; margin-bottom: 0.5rem;">
+                            <span style="color: #9ca3af;">RTP:</span>
+                            <span style="color: #22c55e; font-weight: bold;">96.48%</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; font-size: 0.9rem; margin-bottom: 1rem;">
+                            <span style="color: #9ca3af;">Max Win:</span>
+                            <span style="color: #ffd700; font-weight: bold;">x21100</span>
+                        </div>
+                        <div style="background: #374151; padding: 0.5rem; border-radius: 4px; text-align: center; font-size: 0.9rem; color: #d1d5db; margin-bottom: 1rem;">
+                            🍭 Каскадные выигрыши
+                        </div>
+                        <button class="btn-primary" style="width: 100%; background: linear-gradient(135deg, #22c55e, #16a34a);" onclick="openMostbet()">
+                            ИГРАТЬ
+                        </button>
+                    </div>
+
+                    <div class="card" style="box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);">
+                        <div class="card-header">
+                            <h4 style="font-size: 1.1rem; font-weight: bold; margin-bottom: 0.5rem;">Book of Dead</h4>
+                            <p style="color: #ffd700; font-weight: 500;">Play'n GO</p>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; font-size: 0.9rem; margin-bottom: 0.5rem;">
+                            <span style="color: #9ca3af;">RTP:</span>
+                            <span style="color: #22c55e; font-weight: bold;">96.21%</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; font-size: 0.9rem; margin-bottom: 1rem;">
+                            <span style="color: #9ca3af;">Max Win:</span>
+                            <span style="color: #ffd700; font-weight: bold;">x5000</span>
+                        </div>
+                        <div style="background: #374151; padding: 0.5rem; border-radius: 4px; text-align: center; font-size: 0.9rem; color: #d1d5db; margin-bottom: 1rem;">
+                            📚 Расширяющиеся символы
+                        </div>
+                        <button class="btn-primary" style="width: 100%; background: linear-gradient(135deg, #22c55e, #16a34a);" onclick="openMostbet()">
+                            ИГРАТЬ
+                        </button>
+                    </div>
+
+                    <div class="card" style="box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);">
+                        <div class="card-header">
+                            <h4 style="font-size: 1.1rem; font-weight: bold; margin-bottom: 0.5rem;">Starburst</h4>
+                            <p style="color: #ffd700; font-weight: 500;">NetEnt</p>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; font-size: 0.9rem; margin-bottom: 0.5rem;">
+                            <span style="color: #9ca3af;">RTP:</span>
+                            <span style="color: #22c55e; font-weight: bold;">96.09%</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; font-size: 0.9rem; margin-bottom: 1rem;">
+                            <span style="color: #9ca3af;">Max Win:</span>
+                            <span style="color: #ffd700; font-weight: bold;">x500</span>
+                        </div>
+                        <div style="background: #374151; padding: 0.5rem; border-radius: 4px; text-align: center; font-size: 0.9rem; color: #d1d5db; margin-bottom: 1rem;">
+                            ⭐ Дикие символы
+                        </div>
+                        <button class="btn-primary" style="width: 100%; background: linear-gradient(135deg, #22c55e, #16a34a);" onclick="openMostbet()">
+                            ИГРАТЬ
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <button class="btn-primary btn-large" onclick="openMostbet()">
+                    🎮 ИГРАТЬ ВО ВСЕ ИГРЫ
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section class="section" style="background: linear-gradient(180deg, #374151 0%, #1f2937 100%);">
+        <div class="container">
+            <h2 class="section-title">ПРЕИМУЩЕСТВА MOSTBET</h2>
+            <p class="section-description">
+                Почему миллионы игроков выбирают именно нас? Узнайте все преимущества лучшего казино!
+            </p>
+
+            <div class="grid grid-3">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">🏆</div>
+                        <h3 class="card-title">ЛИЦЕНЗИРОВАННОЕ КАЗИНО</h3>
+                    </div>
+                    <p style="color: #d1d5db; text-align: center;">
+                        Официальная лицензия Кюрасао гарантирует честную игру и безопасность средств
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">⚡</div>
+                        <h3 class="card-title">МГНОВЕННЫЕ ВЫПЛАТЫ</h3>
+                    </div>
+                    <p style="color: #d1d5db; text-align: center;">
+                        Выводите выигрыши за 1-15 минут на любые удобные способы оплаты
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">📱</div>
+                        <h3 class="card-title">МОБИЛЬНОЕ ПРИЛОЖЕНИЕ</h3>
+                    </div>
+                    <p style="color: #d1d5db; text-align: center;">
+                        Играйте где угодно с официальным приложением для Android и iOS
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">🎁</div>
+                        <h3 class="card-title">ЩЕДРЫЕ БОНУСЫ</h3>
+                    </div>
+                    <p style="color: #d1d5db; text-align: center;">
+                        Регулярные акции, турниры и персональные предложения для игроков
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">💰</div>
+                        <h3 class="card-title">ВЫСОКИЕ ЛИМИТЫ</h3>
+                    </div>
+                    <p style="color: #d1d5db; text-align: center;">
+                        Ставки от 1₽ до 100,000₽ • Выигрыши до 50,000,000₽
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon">🛡️</div>
+                        <h3 class="card-title">БЕЗОПАСНОСТЬ 24/7</h3>
+                    </div>
+                    <p style="color: #d1d5db; text-align: center;">
+                        SSL шифрование, защита данных и круглосуточная поддержка игроков
+                    </p>
+                </div>
+            </div>
+
+            <div style="background: linear-gradient(135deg, #374151, #1f2937); padding: 2rem; border-radius: 16px; margin-top: 4rem;">
+                <h3 style="font-size: 2rem; font-weight: bold; text-align: center; margin-bottom: 2rem; color: #ffd700;">
+                    💳 СПОСОБЫ ПОПОЛНЕНИЯ И ВЫВОДА
+                </h3>
+                
+                <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
+                    <div style="background: #1f2937; padding: 1rem; border-radius: 8px; text-align: center;">
+                        <p style="color: white; font-weight: 500;">Visa/MasterCard</p>
+                    </div>
+                    <div style="background: #1f2937; padding: 1rem; border-radius: 8px; text-align: center;">
+                        <p style="color: white; font-weight: 500;">Сбербанк</p>
+                    </div>
+                    <div style="background: #1f2937; padding: 1rem; border-radius: 8px; text-align: center;">
+                        <p style="color: white; font-weight: 500;">Яндекс.Деньги</p>
+                    </div>
+                    <div style="background: #1f2937; padding: 1rem; border-radius: 8px; text-align: center;">
+                        <p style="color: white; font-weight: 500;">QIWI</p>
+                    </div>
+                    <div style="background: #1f2937; padding: 1rem; border-radius: 8px; text-align: center;">
+                        <p style="color: white; font-weight: 500;">WebMoney</p>
+                    </div>
+                    <div style="background: #1f2937; padding: 1rem; border-radius: 8px; text-align: center;">
+                        <p style="color: white; font-weight: 500;">Тинькофф</p>
+                    </div>
+                    <div style="background: #1f2937; padding: 1rem; border-radius: 8px; text-align: center;">
+                        <p style="color: white; font-weight: 500;">Альфа-Банк</p>
+                    </div>
+                    <div style="background: #1f2937; padding: 1rem; border-radius: 8px; text-align: center;">
+                        <p style="color: white; font-weight: 500;">Bitcoin</p>
+                    </div>
+                    <div style="background: #1f2937; padding: 1rem; border-radius: 8px; text-align: center;">
+                        <p style="color: white; font-weight: 500;">Ethereum</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-3" style="text-align: center;">
+                    <div>
+                        <div style="font-size: 2rem; font-weight: bold; color: #22c55e; margin-bottom: 0.5rem;">1-15 МИН</div>
+                        <p style="color: #d1d5db;">Время вывода</p>
+                    </div>
+                    <div>
+                        <div style="font-size: 2rem; font-weight: bold; color: #ffd700; margin-bottom: 0.5rem;">0% КОМИССИЯ</div>
+                        <p style="color: #d1d5db;">За пополнение</p>
+                    </div>
+                    <div>
+                        <div style="font-size: 2rem; font-weight: bold; color: #3b82f6; margin-bottom: 0.5rem;">24/7</div>
+                        <p style="color: #d1d5db;">Поддержка</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top: 4rem; text-align: center;">
+                <div style="background: linear-gradient(135deg, #16a34a, #15803d); padding: 2rem; border-radius: 16px; display: inline-block;">
+                    <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                        <span style="font-size: 2rem; margin-right: 0.75rem;">✓</span>
+                        <p style="font-size: 1.5rem; font-weight: bold;">ПРОВЕРЕНО МИЛЛИОНАМИ ИГРОКОВ</p>
+                    </div>
+                    <p style="font-size: 1.1rem; color: #e5e7eb;">
+                        Более 1,000,000 активных пользователей доверяют Mostbet Casino
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section" style="background: linear-gradient(180deg, #1f2937 0%, #374151 100%);">
+        <div class="container">
+            <h2 class="section-title">ОТЗЫВЫ ИГРОКОВ</h2>
+            <p class="section-description">
+                Реальные истории реальных людей. Узнайте, что говорят наши игроки о Mostbet Casino
+            </p>
+
+            <div class="grid grid-4">
+                <div class="card">
+                    <div style="display: flex; margin-bottom: 1rem;">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    
+                    <p style="color: #d1d5db; margin-bottom: 1rem; line-height: 1.5;">
+                        "Выиграл 250,000₽ в Gates of Olympus! Вывел за 5 минут, без проблем. Mostbet - лучшее казино!"
+                    </p>
+                    
+                    <div class="testimonial-amount">
+                        <p style="font-weight: bold; text-align: center;">
+                            💰 ВЫИГРЫШ: 250,000₽
+                        </p>
+                        <p style="color: #e5e7eb; text-align: center; font-size: 0.9rem;">
+                            🎰 Gates of Olympus
+                        </p>
+                    </div>
+                    
+                    <div style="border-top: 1px solid #374151; padding-top: 1rem;">
+                        <p style="color: #ffd700; font-weight: 600;">Александр К.</p>
+                        <p style="color: #9ca3af; font-size: 0.9rem;">Москва</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div style="display: flex; margin-bottom: 1rem;">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    
+                    <p style="color: #d1d5db; margin-bottom: 1rem; line-height: 1.5;">
+                        "Играю уже 2 года, всегда честные выплаты. Бонусы реально дают, поддержка отвечает мгновенно."
+                    </p>
+                    
+                    <div class="testimonial-amount">
+                        <p style="font-weight: bold; text-align: center;">
+                            💰 ВЫИГРЫШ: 180,000₽
+                        </p>
+                        <p style="color: #e5e7eb; text-align: center; font-size: 0.9rem;">
+                            🎰 Live Roulette
+                        </p>
+                    </div>
+                    
+                    <div style="border-top: 1px solid #374151; padding-top: 1rem;">
+                        <p style="color: #ffd700; font-weight: 600;">Мария С.</p>
+                        <p style="color: #9ca3af; font-size: 0.9rem;">Санкт-Петербург</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div style="display: flex; margin-bottom: 1rem;">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    
+                    <p style="color: #d1d5db; margin-bottom: 1rem; line-height: 1.5;">
+                        "Начал с 1000₽ бонуса, сейчас вывожу стабильно каждую неделю. Слоты огонь, особенно Pragmatic!"
+                    </p>
+                    
+                    <div class="testimonial-amount">
+                        <p style="font-weight: bold; text-align: center;">
+                            💰 ВЫИГРЫШ: 95,000₽
+                        </p>
+                        <p style="color: #e5e7eb; text-align: center; font-size: 0.9rem;">
+                            🎰 Sweet Bonanza
+                        </p>
+                    </div>
+                    
+                    <div style="border-top: 1px solid #374151; padding-top: 1rem;">
+                        <p style="color: #ffd700; font-weight: 600;">Дмитрий П.</p>
+                        <p style="color: #9ca3af; font-size: 0.9rem;">Казань</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div style="display: flex; margin-bottom: 1rem;">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    
+                    <p style="color: #d1d5db; margin-bottom: 1rem; line-height: 1.5;">
+                        "Приложение работает идеально, играю в метро по дороге на работу. Уже выиграла больше зарплаты!"
+                    </p>
+                    
+                    <div class="testimonial-amount">
+                        <p style="font-weight: bold; text-align: center;">
+                            💰 ВЫИГРЫШ: 320,000₽
+                        </p>
+                        <p style="color: #e5e7eb; text-align: center; font-size: 0.9rem;">
+                            🎰 Book of Dead
+                        </p>
+                    </div>
+                    
+                    <div style="border-top: 1px solid #374151; padding-top: 1rem;">
+                        <p style="color: #ffd700; font-weight: 600;">Елена М.</p>
+                        <p style="color: #9ca3af; font-size: 0.9rem;">Новосибирск</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top: 4rem; text-align: center;">
+                <div style="background: linear-gradient(135deg, #9333ea, #7c3aed); padding: 2rem; border-radius: 16px; display: inline-block;">
+                    <p style="font-size: 2rem; font-weight: bold; margin-bottom: 0.5rem;">⭐ 4.9/5 ЗВЕЗД ⭐</p>
+                    <p style="font-size: 1.1rem; color: #e5e7eb;">Средняя оценка от 50,000+ отзывов</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-cta">
+                <p style="font-size: 2.5rem; font-weight: bold; margin-bottom: 1rem;">🚀 НЕ УПУСТИТЕ ШАНС! 🚀</p>
+                <p style="font-size: 1.5rem; color: #ffd700; margin-bottom: 1rem;">БОНУС 125,000₽ + 250 ФРИСПИНОВ</p>
+                <p style="font-size: 1.1rem; color: #e5e7eb; margin-bottom: 1.5rem;">Акция действует ограниченное время!</p>
+                
+                <button class="btn-primary" style="padding: 2rem 4rem; font-size: 1.5rem; border-radius: 12px;" onclick="openMostbet()">
+                    🎯 ИГРАТЬ СЕЙЧАС
+                </button>
+            </div>
+
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>ИГРЫ</h3>
+                    <ul>
+                        <li>🎰 Слоты (2500+)</li>
+                        <li>🃏 Настольные игры</li>
+                        <li>🎯 Live казино</li>
+                        <li>🚀 Crash игры</li>
+                        <li>🎲 Игры с джекпотом</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>БОНУСЫ</h3>
+                    <ul>
+                        <li>🎁 Приветственный бонус</li>
+                        <li>💰 Кэшбэк каждую неделю</li>
+                        <li>🏆 VIP программа</li>
+                        <li>🎯 Турниры и акции</li>
+                        <li>📱 Бонусы в приложении</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>ПОДДЕРЖКА</h3>
+                    <ul>
+                        <li>💬 Онлайн чат 24/7</li>
+                        <li>📧 Email поддержка</li>
+                        <li>📱 Telegram бот</li>
+                        <li>❓ База знаний</li>
+                        <li>🔒 Безопасность</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>ПЛАТЕЖИ</h3>
+                    <ul>
+                        <li>💳 Банковские карты</li>
+                        <li>🏦 Банковские переводы</li>
+                        <li>💰 Электронные кошельки</li>
+                        <li>₿ Криптовалюты</li>
+                        <li>📱 Мобильные платежи</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>
+                    <div class="footer-logo">
+                        <div class="logo-icon">M</div>
+                        <span style="font-size: 1.5rem; font-weight: bold;">Mostbet Casino</span>
+                    </div>
+                    <p class="footer-text">
+                        Лицензированное онлайн казино с более чем 3000 игр от лучших провайдеров мира. 
+                        Играйте ответственно. Запрещено лицам младше 18 лет.
+                    </p>
+                </div>
+                
+                <div class="footer-info">
+                    <p>🏆 Лицензия: Кюрасао 8048/JAZ</p>
+                    <p>🔒 SSL шифрование</p>
+                    <p>⚡ Работаем с 2009 года</p>
+                    <p>🌍 Доступно в 90+ странах</p>
+                </div>
+            </div>
+            
+            <div class="footer-copyright">
+                <p>© 2024 Mostbet Casino. Все права защищены. Играйте ответственно.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function openMostbet() {
+            window.open('https://mostbet.com', '_blank');
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll effect to header
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(0, 0, 0, 0.95)';
+            } else {
+                header.style.background = 'rgba(0, 0, 0, 0.9)';
+            }
+        });
+    </script>
+</body>
+</html>
