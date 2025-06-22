@@ -266,7 +266,7 @@
 
         /* Sections */
         .section {
-            padding: 5rem 0;
+            padding: 20px 0;
         }
 
         .section-title {
@@ -445,6 +445,11 @@
 
         /* Mobile Responsive */
         @media (max-width: 768px) {
+            .btn-outline {
+                background: linear-gradient(135deg, #fe4006, #fe4006);
+                color: #000;
+            }
+
             .nav {
                 display: none;
             }
@@ -485,16 +490,19 @@
     <header class="header">
         <div class="container">
             <div class="header-content">
+            <a href="index.html" style="text-decoration: none; color: #fff;">
                 <div class="logo">
                     <div class="logo-icon">M</div>
                     <span class="logo-text">Mostbet</span>
                 </div>
+            </a>
                 
                 <nav class="nav">
                     <a href="#games">Игры</a>
                     <a href="#bonuses">Бонусы</a>
                     <a href="#slots">Слоты</a>
                     <a href="#live">Live Казино</a>
+                    <a href="zerkalo.html">Зеркало</a>
                 </nav>
 
                 <button class="btn-primary" onclick="openMostbet()">
@@ -547,6 +555,7 @@
                     <button class="btn-outline" onclick="openMostbet()">
                         📱 СКАЧАТЬ ПРИЛОЖЕНИЕ
                     </button>
+                    <a href="zerkalo.html" class="btn-outline">Зеркало</a>
                 </div>
 
                 <div style="margin-top: 2rem; font-size: 0.9rem; color: #9ca3af;">
@@ -642,6 +651,7 @@
                 <div style="background: linear-gradient(135deg, #16a34a, #15803d); padding: 2rem; border-radius: 16px; display: inline-block;">
                     <p style="font-size: 1.5rem; font-weight: bold; margin-bottom: 0.5rem;">⚡ МГНОВЕННОЕ ЗАЧИСЛЕНИЕ ⚡</p>
                     <p style="font-size: 1.1rem;">Все бонусы активируются автоматически при вводе промокода</p>
+                    <a href="promokod.html" style="font-size: 20px; color: #fe4006;">все промокоды</a>
                 </div>
             </div>
         </div>
